@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WatchWise</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="email_label">Email</string>
+    <string name="email_hint">tuejemplo@gmail.com</string>
+    <string name="password">Contraseña</string>
+    <string name="password_hint">*******</string>
+    <string name="login_btn">Iniciar Sesión</string>
+    <string name="btn_register">Registrarse</string>
+    <string name="separator">ó</string>
+    <string name="register_user">Registro</string>
+    <string name="names">Nombres</string>
+    <string name="lastnames">Apellidos</string>
+    <string name="phone_number">Telefono</string>
+    <string name="description_btn_menu">Desplegar menú</string>
+    <string name="general_recommendations">Recomendaciones generales</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi, dictumst ultrices vel torquent interdum mi ullamcorper euismod, litora odio nunc integer convallis sodales habitasse. Ligula torquent facilisi sociis ante justo eget massa dignissim cubilia, ultricies accumsan morbi volutpat at lacinia inceptos pulvinar quisque potenti, fringilla ullamcorper tempor sapien per lacus vel integer. Aliquam sapien aenean velit primis nostra himenaeos nullam ut turpis, tortor torquent donec sagittis duis ligula dignissim.</string>
+    <string name="start">Empezar</string>
+    <string name="btn_perfil">Perfil</string>
+    <string name="add_device">Agregar Dispositivo</string>
+    <string name="delete_device">Eliminar Dispositivo</string>
+    <string name="see_devices_added">Ver dispositivos agregados</string>
+    <string name="graphic_1">Grafica consumo\ntotal/prod</string>
+    <string name="graphic_2">Gráfica consumo dispositivo/mes</string>
+    <string name="back">Atrás</string>
+    <string name="model_device">Marca</string>
+    <string name="watts">Cantidad que consume(Watt)</string>
+    <string name="name_device">Nombre</string>
+    <string name="type_device">Tipo de dispositivo</string>
+    <string name="w_add_device">Registar dispositivo</string>
+    <string name="add">Agregar</string>
+    <string name="devices_added">Dispositivos agregados</string>
+    <string name="recommends">Recomendaciones >></string>
+    <string name="data">Datos</string>
+</resources>

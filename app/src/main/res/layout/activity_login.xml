@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background_app"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="64dp"
+        app:cardCornerRadius="60dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_login"
+            android:contentDescription="@string/app_name" >
+
+        </ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+    android:id="@+id/text_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="32dp"
+    android:text="@string/login"
+    android:textSize="32sp"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/cardView_logo">
+    </TextView>
+
+
+    <TextView
+    android:id="@+id/text_email"
+        android:textStyle="bold"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24dp"
+    android:text="@string/email_label"
+    android:textSize="18sp"
+    android:textColor="@color/black"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="10dp"
+        android:layout_marginBottom="25dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/text_title">
+    </TextView>
+
+    <EditText
+    android:id="@+id/edit_text_email"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:hint="@string/email_hint"
+        android:textColorHint="@color/black"
+    android:padding="12dp"
+    android:background="@color/background_input"
+    android:layout_marginTop="4dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/text_email"
+    >
+    </EditText>
+
+
+    <TextView
+    android:id="@+id/text_password"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="@string/password"
+    android:textSize="18sp"
+        android:textStyle="bold"
+    android:textColor="@color/black"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/edit_text_email" >
+    </TextView>
+
+
+    <EditText
+    android:id="@+id/edit_text_password"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:hint="@string/password_hint"
+    android:inputType="textPassword"
+    android:padding="12dp"
+    android:background="@color/background_input"
+        android:textColorHint="@color/black"
+    android:layout_marginTop="4dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/text_password"
+    android:autofillHints="password" >
+
+    </EditText>
+
+
+    <Button
+    android:id="@+id/btn_login"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="32dp"
+    android:text="@string/login_btn"
+    android:textColor="@color/black"
+    android:backgroundTint="@color/background_btn_login"
+    android:padding="12dp"
+    android:textSize="18sp"
+    app:cornerRadius="8dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/edit_text_password" />
+
+
+    <TextView
+    android:id="@+id/text_or_separator"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="@string/separator"
+    android:textSize="16sp"
+    android:textColor="@color/black"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/btn_login" >
+
+    </TextView>
+
+
+    <Button
+    android:id="@+id/btn_register"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="@string/btn_register"
+    android:textColor="@color/black"
+    android:padding="12dp"
+    android:textSize="18sp"
+    app:cornerRadius="8dp"
+        android:backgroundTint="@color/background_btn_login"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/text_or_separator" >
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
