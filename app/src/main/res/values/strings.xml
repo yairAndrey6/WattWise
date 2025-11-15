@@ -15,7 +15,39 @@
     <string name="phone_number">Telefono</string>
     <string name="description_btn_menu">Desplegar menú</string>
     <string name="general_recommendations">Recomendaciones generales</string>
-    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi, dictumst ultrices vel torquent interdum mi ullamcorper euismod, litora odio nunc integer convallis sodales habitasse. Ligula torquent facilisi sociis ante justo eget massa dignissim cubilia, ultricies accumsan morbi volutpat at lacinia inceptos pulvinar quisque potenti, fringilla ullamcorper tempor sapien per lacus vel integer. Aliquam sapien aenean velit primis nostra himenaeos nullam ut turpis, tortor torquent donec sagittis duis ligula dignissim.</string>
+    <string name="lorem_ipsum">El consumo eléctrico es la cantidad de energía que utilizan los aparatos y sistemas eléctricos durante un periodo de tiempo. Se mide en kilovatios-hora (kWh), una unidad que indica cuánta energía consume un dispositivo si funciona durante una hora con una potencia de un kilovatio.
+
+        En los hogares, los equipos que más contribuyen al consumo son los refrigeradores, aires acondicionados, lavadoras, televisores, computadoras y los sistemas de iluminación\n\n\n
+
+
+        Cada dispositivo tiene una potencia nominal, expresada en watts (W), que indica cuánta energía usa mientras está encendido. Cuanto mayor sea la potencia y más tiempo de uso, mayor será el consumo final.
+
+
+        \n\n\nEl consumo eléctrico tiene un impacto directo en el costo de la factura mensual de energía, ya que las empresas suministradoras cobran por cada kWh utilizado. Además, un mayor uso de electricidad implica mayor demanda energética, lo que puede contribuir a la generación de gases de efecto invernadero cuando la energía proviene de fuentes no renovables.
+
+
+        \nPara reducir el consumo y optimizar el uso de energía, se recomienda:
+
+
+    \n\n* Utilizar electrodomésticos con etiqueta de eficiencia energética.
+
+
+    \n\n* Desconectar dispositivos que no se estén usando.
+
+
+    \n\n* Aprovechar la luz natural.
+
+
+    \n\n* Implementar sistemas de iluminación LED
+
+
+    \n\n* Regular temperaturas en aires acondicionados y neveras.
+
+
+    \n\n* Monitorear el consumo con herramientas o aplicaciones especializadas.
+
+
+    Comprender cómo se consume la energía en el hogar o en un negocio permite tomar decisiones más responsables, ahorrar dinero y contribuir a la sostenibilidad del entorno\n\n</string>
     <string name="start">Empezar</string>
     <string name="btn_perfil">Perfil</string>
     <string name="add_device">Agregar Dispositivo</string>
@@ -33,4 +65,5 @@
     <string name="devices_added">Dispositivos agregados</string>
     <string name="recommends">Recomendaciones >></string>
     <string name="data">Datos</string>
+    <string name="name">Name</string>
 </resources>

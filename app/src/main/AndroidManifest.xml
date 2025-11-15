@@ -11,6 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WattWise">
+        <activity android:name=".activities.RegisterActivity"/>
+        <activity android:name=".activities.MenuActivity" />
+        <activity android:name=".activities.IndexActivity"/>
+        <activity android:name=".activities.AddDeviceActivity"/>
+        <activity android:name=".activities.AccountActivity"/>
+        <activity android:name=".activities.ShowDevicesAddedActivity"/>
+        <activity android:name=".activities.ShowGrapichTotalActivity"/>
+        <activity android:name=".activities.ShowGrapichDeviceMonthActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
